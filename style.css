@@ -1,0 +1,65 @@
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.buttonWrapper{
+    display: block;
+    text-align: center;
+}
+.textUnderButton{
+    font-size: 20px;
+}
+.rockButton{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+}
+:hover {
+    border-color: #000000;
+    background: #f7f7f7;
+} 
+.paperButton{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+}
+:hover {
+    border-color: #000000;
+    background: #f7f7f7;
+} 
+.scissorsButton{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+}
+:hover {
+    border-color: #000000;
+    background: #f7f7f7;
+} 
+.rockButton img{
+    height: 50px;
+    width: 50px;
+}
+.scissorsButton img{
+    height: 50px;
+    width: 50px;
+}
+.paperButton img{
+    height: 50px;
+    width: 50px;
+}
+
+
