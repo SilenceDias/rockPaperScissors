@@ -33,7 +33,6 @@ function restart(){
     const restartButton = document.createElement('button');
     restartButton.classList.add('restartButton');
     restartButton.innerText = "Restart the game";
-    const oldRes = document.querySelector(".result");
     resultContainer.appendChild(restartButton);
     restartButton.addEventListener("click", function(){
         window.location.reload()
