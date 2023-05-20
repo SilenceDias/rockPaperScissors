@@ -1,3 +1,8 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
 .buttonsContainer{
     display: flex;
     justify-content: center;
@@ -61,5 +66,48 @@
     height: 50px;
     width: 50px;
 }
-
-
+.resultWrapper{
+    display: flex;
+    justify-content: center;
+}
+.result{
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.cardChoice{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+    border: 1px solid #222222;
+    font-size: 20px;
+}
+.cardChoice img{
+    height: 100px;
+    width: 100px;
+}
+.score{
+    font-size: 50px;
+}
+.restartButton{
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+}
+.resContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

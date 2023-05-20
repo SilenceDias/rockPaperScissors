@@ -9,27 +9,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="buttonsContainer">
-        <div class="buttonWrapper">
-            <button class="rockButton">
-                <img src="images/rock.png">
-            </button>
-            <div class="textUnderButton">Rock</div>
+    <div class="container">
+        <div class="buttonsContainer">
+            <div class="buttonWrapper">
+                <button class="rockButton" value="rock">
+                    <img src="images/rock.png">
+                </button>
+                <div class="textUnderButton">Rock</div>
+            </div>
+            <div class="buttonWrapper">
+                <button class="rockButton" value="paper">
+                    <img src="images/paper.png">
+                </button>
+                <div class="textUnderButton">Paper</div>
+            </div>
+            <div class="buttonWrapper">
+                <button class="rockButton" value="scissors">
+                    <img src="images/scissors.png">
+                </button>
+                <div class="textUnderButton">Scissors</div>
+            </div>
         </div>
-        <div class="buttonWrapper">
-            <button class="paperButton">
-                <img src="images/paper.png">
-            </button>
-            <div class="textUnderButton">Paper</div>
+        <div class="resultWrapper">
+            <div class="cardChoice" id="first">
+                Player Score: 
+                <img src="images/player.png">
+            </div>
+            <div class="resContainer">
+                <div class="result" >Press your choice!</div>
+            </div>
+          
+            <div class="cardChoice" id="second">
+                Computer Score:
+                <img src="images/computer.png">
+            </div>
         </div>
-        <div class="buttonWrapper">
-            <button class="scissorsButton">
-                <img src="images/scissors.png">
-            </button>
-            <div class="textUnderButton">Scissors</div>
-        </div>
-        
-       
     </div>
     <script src="script.js"></script>
 </body>
